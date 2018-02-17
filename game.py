@@ -37,6 +37,9 @@ while True:
     userInput = input("Your choice? ")
     if userInput.lower() == "q":
             done = True
+            print("You quit the Game")
+            break;
+
 
 #status
     elif userInput.lower() == "e":
